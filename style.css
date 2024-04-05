@@ -48,3 +48,15 @@ span.highlight {
     background: #FF6600;
     color: #fff;
 }
+
+/* 希望關鍵單詞可以是黑底白字 */
+p>span.highlight {
+    background: black;
+    color: white;
+}
+
+/* 針對 span 標籤在滑鼠 hover 時，設定了樣式為黃底黑字 */
+span.highlight:hover {
+    color: #000;
+    background: #ff0;
+}
